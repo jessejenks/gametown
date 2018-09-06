@@ -4,8 +4,6 @@ import React, {Component} from 'react';
 //  dangerouslySetInnerHTML={this.getMarkDown()}>
 import './texteditor.css';
 
-
-
 class TextEditor extends Component {
 	constructor(props) {
 		super(props);
@@ -13,7 +11,6 @@ class TextEditor extends Component {
 			title: '',
 			text: '',
 			buttons: [
-
 				"thing 1",
 				"thing 2",
 				"thing 3",
@@ -87,7 +84,7 @@ class TextEditor extends Component {
 							type="text"
 							value={this.state.title}
 							onChange={this.handleChange}
-							placeholder="My Greate Project"/>
+							placeholder="The Next Great American Novel"/>
 					</div>
 					<div className="option">
 						<textarea

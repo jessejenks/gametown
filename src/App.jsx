@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-// import TextEditor from './TextEditor';
-import NavBar from './NavBar';
+import NavBar from './components/nav_components/NavBar';
 
 class App extends Component {
 	render() {
 		return (
-			<NavBar />
+			<div>
+				<NavBar />
+			</div>
 		);
 	}
 }

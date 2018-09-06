@@ -1,0 +1,44 @@
+a:visited {
+	color: inherit;
+}
+
+#nav-bar > ul {
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#nav-bar li {
+	/*width: 25%;*/
+	display: inline;
+	margin-right: 20px;
+}
+
+#nav-bar a {
+	/*display: inline;*/
+	/*color: red;*/
+	padding: 6px 10px;
+	text-decoration: none;
+	background-color: #eef;
+}
+
+#nav-bar a:hover {
+	color:#d66;
+}
+
+#game-options > li {
+	display: inline-block;
+	margin: 5px 5px;
+}
+
+#game-options a {
+	color: purple;
+	padding: 4px 10px;
+	text-decoration: none;
+	background-color: #eee;
+	border-radius: 4px;
+}
+
+#game-options a:hover {
+	color: #faa;
+}
